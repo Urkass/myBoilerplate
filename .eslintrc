@@ -1,0 +1,18 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "warn",
+    "prefer-rest-params": "warn",
+    "import/prefer-default-export": "none",
+    "react/destructuring-assignment": "none",
+    "react/prop-types": "none",
+    "global-require": "off",
+    "import/no-extraneous-dependencies": "none"
+  },
+  "parser": "babel-eslint",
+  "plugins": ["prettier"],
+  "env": {
+    "browser": true
+  }
+}
