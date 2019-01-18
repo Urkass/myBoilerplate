@@ -50,6 +50,7 @@
   },
   "dependencies": {
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "react-rnd": "^9.0.4"
   }
 }

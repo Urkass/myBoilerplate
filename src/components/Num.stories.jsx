@@ -3,5 +3,5 @@ import { storiesOf } from '@storybook/react';
 import { Num } from './Num';
 
 storiesOf('Button', module)
-  .add('with text', () => <Num num={5} />)
-  .add('with some emoji', () => <Num num={200} />);
+  .add('with text', () => <Num num='azaza' />)
+  .add('with number', () => <Num num={1} />);

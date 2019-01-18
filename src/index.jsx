@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Num } from './components/Num';
+import { App } from './components/App';
 
-ReactDOM.render(<Num num={200} />, window.document.getElementById('root'));
+ReactDOM.render(<App />, window.document.getElementById('root'));
